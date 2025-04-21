@@ -1,13 +1,13 @@
-import React from 'react'
-import NavBar from '../components/NavBar'
+import React from 'react';
+import NavBar from '../components/NavBar';
 
-function RegistroFeedback() {
+const RegistroFeedback = () => {
   return (
     <div>
-      <NavBar/>
+      <NavBar />
       <h1>Registro de Feedback</h1>
     </div>
-  )
-}
+  );
+};
 
-export default RegistroFeedback
+export default RegistroFeedback;
